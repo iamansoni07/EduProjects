@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    --primary-color: #b5facb;
+    --secondary-color: rgb(246, 238, 172);
+    --utility-color : rgb(253, 211, 134);
+}
+
+
+.navbar{
+    height : 5vh;
+    background-color: var(--primary-color);
+}
+
+.main{
+    height : 85vh;
+    background-color: var(--secondary-color);
+    display: flex;
+
+}
+
+.footer{
+    height: 5vh;
+    background-color: var(--primary-color) ;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    gap: 0.5vh;
+}
+
+.class{
+    width: 20vw;
+    height: 6.6vh;
+    border-radius: 10%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: aquamarine;
+}
+
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 6.6vh;
+    width: 80vw;
+    background-color: rgb(198, 255, 236);
+
+}
+
+.notes-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes{
+    height: 40vh;
+}
+
+.notes-cards{
+
+    display: flex;
+}
+
+.n-card{
+    height: 30vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    margin: 1vw;
+}
+
+.n-card-first{
+    margin-left: 2vw;
+}
+.n-card-last{
+    margin-right: 2vw;
+}
+
+.lectures{
+    height: 40vh;
+}
+
+.lectures-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lectures-cards{
+    display: flex;
+    gap: 2vw;
+}
+
+.l-card{
+    height: 30vh;
+    width: 100%;
+    background-color: var(--utility-color);
+}
+
+.l-card-first{
+    margin-left: 2vw;
+}
+.l-card-last{
+    margin-right: 2vw;
+}
+
+
